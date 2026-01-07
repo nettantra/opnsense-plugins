@@ -6,7 +6,7 @@ Run the following commands on your OPNsense device:
 
 ```bash
 # Download repository configuration
-fetch -o /usr/local/etc/pkg/repos/nettantra.conf https://raw.githubusercontent.com/nettantra/opnsense-plugins/main/repo/nettantra.conf
+fetch -o /usr/local/etc/pkg/repos/nettantra.conf https://raw.githubusercontent.com/nettantra/opnsense-plugins/main/nettantra.conf
 
 # Update package cache
 pkg update -f
