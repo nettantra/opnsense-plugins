@@ -6,7 +6,7 @@ Run the following commands on your OPNsense device:
 
 ```bash
 # Download repository configuration
-fetch -o /usr/local/etc/pkg/repos/NetTantra.conf https://raw.githubusercontent.com/nettantra/opnsense-plugins/main/NetTantra.conf
+fetch -o /usr/local/etc/pkg/repos/NetTantra.conf https://nettantra.github.io/opnsense-plugins/NetTantra.conf
 
 # Update package cache
 pkg update -f
@@ -22,5 +22,7 @@ After adding the repository, go to **System > Firmware > Plugins** and enable
 If you prefer to install manually:
 
 ```bash
+pkg install os-nettantra-wanspeedtest
+pkg install os-nettantra-assetmanagement
 pkg install os-nettantra-uptimestatus
 ```
