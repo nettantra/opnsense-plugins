@@ -25,4 +25,5 @@ If you prefer to install manually:
 pkg install os-nettantra-wanspeedtest
 pkg install os-nettantra-assetmanagement
 pkg install os-nettantra-uptimestatus
+pkg install os-nettantra-attendance-monitor
 ```
