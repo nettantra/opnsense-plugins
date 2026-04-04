@@ -23,7 +23,6 @@ If you prefer to install manually:
 
 ```bash
 pkg install os-nettantra-wanspeedtest
-pkg install os-nettantra-tplink-manager
 pkg install os-nettantra-assetmanagement
 pkg install os-nettantra-uptimestatus
 pkg install os-nettantra-packagebackup
