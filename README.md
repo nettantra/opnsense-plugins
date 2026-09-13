@@ -27,7 +27,6 @@ pkg install os-nettantra-attendance-monitor
 pkg install os-nettantra-iot-manager
 pkg install os-nettantra-packagebackup
 pkg install os-nettantra-socks-proxy
-pkg install os-nettantra-tplink-manager
 pkg install os-nettantra-uptimestatus
 pkg install os-nettantra-wanspeedtest
 ```
